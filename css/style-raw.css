@@ -1,0 +1,1225 @@
+/* Normalize */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+    margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+    display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+    background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+    border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+    text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+    display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+    display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+    display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* Reset */
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+/**
+ * Remove anchor tex-decoration
+ */
+
+a {
+    text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */
+
+ol, ul {
+    list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* Grid */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+.container:after, .container:before {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-1 	{width: 40px;}
+.grid-2 	{width: 100px;}
+.grid-3 	{width: 160px;}
+.grid-4 	{width: 220px;}
+.grid-5 	{width: 280px;}
+.grid-6 	{width: 340px;}
+.grid-7 	{width: 400px;}
+.grid-8 	{width: 460px;}
+.grid-9 	{width: 520px;}
+.grid-10 	{width: 580px;}
+.grid-11 	{width: 640px;}
+.grid-12 	{width: 700px;}
+.grid-13 	{width: 760px;}
+.grid-14 	{width: 820px;}
+.grid-15 	{width: 880px;}
+.grid-16 	{width: 940px;}
+.grid-1-3	{width: 300px;}
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+    .container {
+        width: 768px;
+    }
+
+    .grid-1		{width: 28px;}
+    .grid-2		{width: 76px;}
+    .grid-3		{width: 124px;}
+    .grid-4		{width: 172px;}
+    .grid-5		{width: 220px;}
+    .grid-6		{width: 268px;}
+    .grid-7		{width: 316px;}
+    .grid-8		{width: 364px;}
+    .grid-9		{width: 412px;}
+    .grid-10	{width: 460px;}
+    .grid-11	{width: 508px;}
+    .grid-12	{width: 556px;}
+    .grid-13	{width: 604px;}
+    .grid-14	{width: 652px;}
+    .grid-15	{width: 700px;}
+    .grid-16	{width: 748px;}
+    .grid-1-3	{width: 236px;}
+
+}
+
+@media only screen and (max-width: 787px) {
+    .container {
+        width: 300px;
+    }
+
+    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+        width: 300px;
+        margin: 0 0 20px 0;
+        float: none;
+    }
+
+}
+
+/* Geral */
+
+body {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.btn {
+    position: relative;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    padding: 10px 40px;
+
+}
+
+.subtitulo {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 8px auto;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5em;
+    background-color: #002884;
+    z-index: 10;
+}
+
+.header_menu {
+    text-align: right;
+    /*margin-top: 5px;*/
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.header_menu ul li a {
+    font-family: Montserrat, Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+
+.header_menu ul li a img:hover {
+    filter: invert(2);
+}
+
+.header_menu ul li a:hover {
+    color: black;
+}
+
+.header_redes {
+    margin-top: 20px;
+
+}
+
+.header_redes img {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.header_redes img:hover {
+    filter: invert(1);
+}
+
+/* Introducao */
+
+.introducao {
+    width: 100%;
+    height: 40em;
+    padding: 30px 0;
+    margin-top: 80px;
+    background-color: black;
+    background-image: url("../img/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.introducao h1 {
+    width: 360px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 300px;
+    color: white;
+    margin-bottom: 250px;
+}
+
+.introducao-lista {
+    width: 580px;
+    margin-left: 20%;
+    margin-top: 35%;
+}
+
+.introducao-lista li {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    bottom: 0;
+    color: #002884;
+}
+
+/* Sobre */
+
+.sobre {
+    width: 100%;
+    height: 100%;
+    background-color: #11A7F8;
+    padding: 60px 0;
+    color: white;
+}
+
+.sobre h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.sobre p {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.sobre-lateral {
+    margin-left: 70px;
+}
+
+.sobre-lateral img {
+    border-radius: 15px;
+}
+
+.sobre-lateral p, span, a {
+    font-weight: 800;
+    color: white;
+}
+
+.sobre-lateral p {
+    margin-top: 25px;
+}
+
+.sobre-lateral a:hover {
+    color: #555555;
+    padding: 15px 0;
+}
+
+.sobre-lateral h4, h5 {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.sobre-lateral h5 {
+    color: black;
+}
+
+/* Experiencias */
+
+.experiencias {
+    width: 100%;
+    padding-top: 60px;
+    height: 100%;
+}
+
+.experiencias .subtitulo {
+    color: black;
+}
+
+.experiencias .subtitulo:after {
+    background: #002884;
+}
+
+.lista-experiencia li {
+    clear: both;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 20px;
+}
+
+.experiencias h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.experiencias-img-gd img {
+    margin-left: 50px;
+}
+
+.experiencias-texto-gd {
+    margin-top: -100px;
+    margin-bottom: 60px;
+}
+
+/* Portfolio */
+
+.portfolio {
+    width: 100%;
+    background-color: #11A7F8;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.portfolio .subtitulo {
+    margin-bottom: 20px;
+}
+
+#texto-subtitulo {
+    width: 340px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.lista-portfolio li {
+    margin-top: 50px;
+}
+
+.portfolio-tela {
+    width: 300px;
+    transition: 300ms;
+}
+
+.lista-portfolio img {
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    border-radius: 15px 15px 0 0;
+}
+
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+    margin-bottom: 60px;
+}
+
+.call p{
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-weight: 800;
+}
+.portfolio-titulo {
+    width: 100%;
+    background-color: #002884;
+    text-align: center;
+    color: white;
+    height: 80px;
+    padding: 8px 0;
+    border-radius: 0 0 15px 15px;
+
+}
+
+.portfolio-titulo h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.portfolio-titulo h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: whitesmoke;
+    margin: 2px auto;
+}
+
+.portfolio-tecnologias {
+    font-weight: 600;
+}
+
+/* Contatos */
+
+.contato {
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    background: #002884;
+}
+
+.contato .subtitulo {
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.contato .subtitulo:after {
+    width: 120px;
+}
+
+.contato a {
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.contato a:hover {
+    color: black;
+}
+
+
+.contato p {
+    width: 460px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.lista-contatos {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+}
+
+#email {
+    margin-top: 50px;
+}
+
+.contato-redes {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contato-redes li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contato-redes li:hover {
+    filter: invert(1);
+}
+
+#copy {
+    margin-top: 105px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* Manutencao */
+
+.manutencao {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 60px 0;
+    background-image: url("../img/milestones-bg.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+}
+
+.manutencao h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.manutencao h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.manutencao .btn {
+    margin-top: 20px;
+}
+
+/* JAVASCRIPT */
+
+/* SLIDE */
+.js [data-slide] {
+    position: relative;
+}
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+
+.js [data-slide-nav] {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.js [data-slide-nav] > button {
+    display: inline-block;
+    width: 12px;
+    margin: 20px 4px 4px 4px;
+    height: 12px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    background: #1d1d1d;
+    text-indent: -100px;
+    overflow: hidden;
+}
+.js [data-slide-nav] > button.active {
+    background: white;
+}
+
+/* ANIME */
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+}
+.js .fadeInUp {
+    transform: translate3d(0,20px,0);
+}
+.js .fadeInRight {
+    transform: translate3d(20px,0,0);
+}
+.js .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+}
+
+
+/* Responsivo */
+
+/* Estilo para tablets */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    /* Header */
+    .header {
+        height: 120px;
+    }
+
+    .header .grid-14 {
+        width: 788px;
+
+    }
+
+    .header_menu {
+        text-align: center;
+    }
+
+    .header_redes {
+        margin-top: 20px;
+        width: 100%;
+
+    }
+
+    .header_redes img {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    /* Introducao */
+    .introducao {
+        text-align: center;
+        padding-top: 50px;
+        background-color: #11A7F8;
+    }
+
+    .introducao h1 {
+        margin: 0 auto;
+    }
+
+    .introducao-lista {
+        margin: 0 auto;
+        margin-top: 45%;
+    }
+
+    /* Sobre */
+    .sobre {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .sobre p {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .sobre-texto {
+        width: 458px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .sobre-lateral h4 {
+        margin-top: 60px;
+    }
+
+    /* Experiencias */
+    .experiencias {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .experiencias-logo {
+        margin-top: 60px;
+    }
+
+    .experiencias-texto-peq {
+        margin-top: 40px;
+    }
+
+    .experiencias-texto-gd {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* Portfolio */
+    .portfolio {
+        padding-top: 20px;
+    }
+
+    .portfolio img {
+        width: 236px;
+    }
+
+    .portfolio-titulo {
+        height: 100px;
+        padding: 10px 0;
+    }
+
+    /* Contato */
+    .contato {
+        padding-top: 0;
+    }
+
+    .contato .subtitulo:after {
+        width: 80px;
+    }
+
+}
+
+/* Estilo para smartphone */
+
+@media only screen and (max-width: 787px) {
+
+    /* Header */
+    .header {
+        position: relative;
+        padding-top: 20px;
+        height: 100%;
+    }
+
+    .header_menu {
+        text-align: center;
+    }
+
+    .header_menu ul li {
+        margin: 5px 0 0 5px;
+    }
+
+    .header_menu ul li a {
+        font-size: 14px;
+        border: 4px solid white;
+        width: 140px;
+        display: block;
+        float: left;
+    }
+
+    .header_menu ul li a:hover {
+        border-color: black;
+    }
+
+    .header_redes {
+        margin: 0 auto 10px;
+    }
+
+    .header_redes img {
+        margin-right: 10px;
+    }
+
+    /* Introducao */
+    .introducao {
+        margin-top: 0;
+        text-align: center;
+        padding-top: 40px;
+        background-color: #11A7F8;
+        background-image: url("../img/intro-bg-resp.jpg");
+    }
+
+    .introducao h1 {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 40px;
+    }
+
+    .introducao-lista {
+        width: 100%;
+        margin: 365px auto 0;
+    }
+
+    /* Sobre */
+    .sobre {
+        margin-top: 0;
+        padding-top: 40px;
+    }
+
+    .sobre p {
+        text-align: justify;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .sobre h3, h4 {
+        text-align: center;
+    }
+
+    .sobre .sobre-lateral {
+        margin: 0;
+    }
+
+    .sobre img {
+        width: 100%;
+    }
+
+    /* Experiencias */
+    .experiencias {
+        text-align: justify;
+    }
+
+    .experiencias h3 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .experiencias-logo {
+        float: left;
+        width: 75px;
+        margin-right: 5px;
+        margin-bottom: 0;
+    }
+
+    .experiencias-img-gd img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .experiencias-texto-gd {
+        margin: 0 auto 30px;
+    }
+
+    /* Portfolio */
+    .portfolio {
+        padding-top: 20px;
+    }
+
+    #texto-subtitulo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .lista-portfolio {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Contato */
+    .contato {
+        padding-top: 0;
+    }
+
+    .contato .subtitulo:after {
+        width: 60px;
+    }
+
+    .contato p {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    #whats {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    #linkedin {
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #email {
+        width: 100%;
+        text-align: center;
+    }
+
+}
