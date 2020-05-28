@@ -1,3 +1,6 @@
+import initMenuMobile from './modules/menu-mobile.js';
+import initModal from "./modules/modal.js";
+
 if(window.SimpleSlide) {
 
     new SimpleSlide({
@@ -22,3 +25,6 @@ if(window.SimpleAnime) {
     new SimpleAnime();
 
 }
+
+initMenuMobile();
+initModal();

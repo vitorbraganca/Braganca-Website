@@ -1,0 +1,169 @@
+@media only screen and (max-width: 787px) {
+    .modal {
+        background: white;
+        min-width: 70%;
+        max-width: 70%;
+        min-height: 75%;
+        max-height: 100%;
+        padding: 40px;
+        position: relative;
+    }
+}
+
+.modal-container {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.ativo {
+    display: flex;
+}
+
+.modal {
+    background: white;
+    min-width: 960px;
+    max-width: 960px;
+    height: 525px;
+    padding: 40px;
+    position: relative;
+}
+
+.subtitulo-modal {
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.subtitulo-modal:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #11A7F8;
+    margin: 8px auto;
+}
+
+.titulo-modal img {
+    width: 45px;
+    height: 45px;
+}
+
+.modal-texto p{
+    text-align: center;
+    font-weight: 700;
+}
+
+.modal-lista {
+    margin: 0 auto;
+    width: 80%;
+    padding: 60px 0;
+}
+
+.modal-lista li {
+    display: inline-block;
+    background-color: #11A7F8;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 40px;
+    box-shadow: 2px 2px 2px #1d1d1d;
+    border: 2px solid #1d1d1d;
+    transition: 500ms;
+}
+
+.modal-lista li:hover {
+    background-color: #1d1d1d;
+    color: white;
+    box-shadow: -5px -5px #1d1d1d;
+    /*border: 10px solid white;*/
+
+}
+
+.modal-lista li a {
+    width: 50%;
+    padding: 30px;
+}
+
+.modal-lista li p {
+    text-align: center;
+    font-weight: 800;
+}
+
+.modal-lista li img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+}
+
+
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -30px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.ativo .modal {
+    animation: modal .3s forwards;
+}
+
+.fechar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    top: -30px;
+    right: -30px;
+    position: absolute;
+    background: #E54;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+    .modal {
+        min-width: 80%;
+    }
+
+    .modal-lista {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 787px) {
+    .modal {
+        min-width: 30%;
+        max-width: 80%;
+    }
+    .modal-lista {
+        width: 100%;
+    }
+    .modal-lista li {
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+    .modal-lista li img {
+        width: 100px;
+        height: 100px;
+    }
+}
